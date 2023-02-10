@@ -1,0 +1,23 @@
+
+.retrospective-heading {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  /* .retrospective-content-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+   */
+  @media only screen and (max-width: 600px) {
+    .retrospective-content-wrapper {
+      grid-template-columns: 100%;
+    }
+  }
+  .button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+  

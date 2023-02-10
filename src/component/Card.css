@@ -1,0 +1,87 @@
+.card_page{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.search_card{
+  padding-top:40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 40px;
+}
+
+
+.search_box{
+  width: 30%;
+}
+
+.search_box > input{
+  width: 100%;
+}
+
+.gallery_wrapper{
+  width: 100%;
+  grid-gap: 20px;
+  display: grid;
+ 
+  grid-template-columns: repeat(auto-fill, 250px);
+  place-content: center;
+}
+
+.main_div_createnote {
+  /* width: 250px;
+  height: 220px; */
+  /* margin: 15px;
+  margin-left: 55px; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px #888888;
+  border-radius: 10px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 32%;
+  height: 25px;
+  margin: -8px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.retrospective-content-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+img {
+  margin: 15px;
+  margin-left: 87px;
+  align-items: center;
+  width: 70px;
+  border-radius: 35px;
+}
+h2 {
+  margin-left: 68px;
+  font-size: 30px;
+}
+
+p {
+  margin-left: 87px;
+  font-size: 20px;
+  font-weight: 600;
+  color: purple;
+}
+
+.year {
+  margin-left: 25px;
+}
