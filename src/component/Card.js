@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { v4 as uuid } from "uuid";
 import "./Card.css";
 
-const retrospectiveListInfo = [
-  {
-    id: uuid(),
-    name: "Contant",
-  },
-];
+
 
 export default function Card() {
   const [data, setData] = useState([]);
@@ -27,7 +21,7 @@ export default function Card() {
     fetchData();
   }, []);
   const handleFilter = (e) => {
-    if (e.target.value == "") {
+    if (e.target.value === "") {
       setData(searchApiData);
     } else {
       const filterResult = searchApiData.filter((item) =>
